@@ -1,0 +1,27 @@
+body {
+    background-size: cover;
+    background-image: url('https://images.unsplash.com/photo-1584559759045-d5062ca44f09?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w1Nzk4OTh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA2NjYwMjV8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080');
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }
+  .container {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  padding: 30px;
+  backdrop-filter: blur(18px);
+}
+.btn-primary {
+    background-color: rgb(255, 130, 41);
+    border-color: rgb(255, 130, 41);
+}
+
+.btn-primary:hover {
+    background-color: rgb(105, 54, 17); /* Darker blue color on hover */
+    border-color: rgb(105, 54, 17); /* Border color same as hover background */
+}
+
+.form-control:focus {
+    border-color: rgb(255, 130, 41);
+    box-shadow: 0 0 0 0.2rem rgb(255, 130, 41);
+}
